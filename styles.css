@@ -1,13 +1,11 @@
-
-/* Your CSS Code here. 
 .holder {
-    display: flex;                 /* enable flexbox */
-    flex-direction: row;           /* items in a row */
+    display: flex;                  /* enable flexbox */
+    flex-direction: row;            /* items in a row */
     justify-content: space-between; /* first & last touch edges */
-    flex-wrap: wrap;               /* move to next row if needed */
+    flex-wrap: wrap;                /* move to next row if needed */
 }
 
 .item {
-    width: 100px;                  /* fixed size (prevents squashing) */
+    width: 100px;                   /* fixed size */
     height: 100px;
 }
