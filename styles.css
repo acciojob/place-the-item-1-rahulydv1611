@@ -9,3 +9,26 @@
     width: 100px;                   /* fixed size */
     height: 100px;
 }
+.item {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* First item (red) */
+.item:nth-child(1) {
+    background-color: red;
+}
+
+/* Second item (blue) */
+.item:nth-child(2) {
+    background-color: blue;
+}
+
+/* Rest (green) */
+.item:nth-child(n+3) {
+    background-color: green;
+}
